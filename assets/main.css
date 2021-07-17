@@ -157,3 +157,12 @@ img {
    */
   /* text-align: center; */
 }
+
+.items {
+  margin-top: 40px;
+  max-width: 640px;
+}
+.items img {
+  width: 60%;
+  height: 512px;
+}
