@@ -64,6 +64,7 @@
     overflow: hidden;
   }
   
+  
   .prev,
   .next {
     /* Ok, this is very important, the reason why this works is because
