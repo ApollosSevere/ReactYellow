@@ -314,9 +314,50 @@ text-rendering: optimizeLegibility;
 .images-slider .slides li {
 	display: none;
 	width: 100%;
+  padding: 0;
+  /* margin: 0 auto; */
+}
+ol, ul {
+  padding-left: 0 !important;
+}
+.images-slider  .slides {
+  /* background-color: turquoise; */
+  width: 100%;
 }
 
-.featured-Item img{
-  width: 100px;
-  /* height: 40px; */
+.photos{
+  position: absolute;
+  top: 90%;
+}
+.images-slider{
+  position: relative;
+  /* width: 100%; */
+}
+.featured {
+  max-width: 80%;
+}
+.featured-Item {
+  margin: 10px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 5% );
+}
+.featured-Item.active {
+  box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+  transition: 0.6s;
+}
+
+/* .photos::before {
+  width: 100%;
+  height: 60px;
+  background: #2d3a4b;
+  content: "";
+} */
+
+.photos:before {
+  height: 120px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: #fff;
+  content: "";
+  z-index: -1;
 }
